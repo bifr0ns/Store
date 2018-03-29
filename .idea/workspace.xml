@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8ce8dc7-266d-4a00-b197-19c4b78551a8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/collection/dao.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/collection/function.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/collection/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/collection/structure.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/easytimer.js-master.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/easytimer/customEventPolyfill.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/easytimer/easytimer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/easytimer/leftPadding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/easytimer/timeCounter.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/structure/function.js" afterPath="$PROJECT_DIR$/js/structure/function.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/structure/structure.js" afterPath="$PROJECT_DIR$/js/structure/structure.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/header.php" afterPath="$PROJECT_DIR$/lib/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/structure/init.js" afterPath="$PROJECT_DIR$/js/structure/init.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dao.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dao.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/collection/dao.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -86,14 +74,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="init.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/structure/init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2142">
-              <caret line="126" column="35" lean-forward="false" selection-start-line="126" selection-start-column="35" selection-end-line="126" selection-end-column="35" />
-              <folding>
-                <marker date="1512772249482" expanded="true" signature="4571:4578" ph="×" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,6 +102,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/js/structure/function.js" />
         <option value="$PROJECT_DIR$/js/structure/structure.js" />
+        <option value="$PROJECT_DIR$/js/structure/init.js" />
       </list>
     </option>
   </component>
@@ -275,12 +262,12 @@
       <option name="presentableId" value="Default" />
       <updated>1522351864791</updated>
       <workItem from="1522351870333" duration="4705000" />
-      <workItem from="1522362361071" duration="2686000" />
+      <workItem from="1522362361071" duration="2794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7400000" />
+    <option name="totallyTimeSpent" value="7508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="754" extended-state="6" />
@@ -346,16 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/structure/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="126" column="35" lean-forward="false" selection-start-line="126" selection-start-column="35" selection-end-line="126" selection-end-column="35" />
-          <folding>
-            <marker date="1512772249482" expanded="true" signature="4571:4578" ph="×" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -400,6 +377,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/structure/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
           <folding />
         </state>
       </provider>
