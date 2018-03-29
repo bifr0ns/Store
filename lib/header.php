@@ -43,7 +43,7 @@
                     <div class="input-group">
                         <input class="form-control border border-success" id="search" name="search" placeholder="Buscar">
                     </div>
-                    &nbsp;<span class="btn btn-outline-success my-2 my-sm-0 btn_search">Buscar</span>
+                    &nbsp;<span class="btn btn-outline-success my-2 my-sm-0 btn_search">Search</span>
                     <!--</form>-->
                     </ul>
                 </div>
