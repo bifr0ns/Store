@@ -1,0 +1,38 @@
+.gray{
+    background-color: rgba(204, 204, 204, 1);
+}
+
+.container{
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 30px;
+    border-radius: 0 0 45px 0;
+}
+
+.precio{
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #F44336;
+    padding: 6px 12px;
+    position: absolute;
+    top: 0px;
+    border-top-right-radius: .625rem;
+    margin-right: 15px;
+    right: 0;
+}
+.card-sinsombra{
+    background-color: #fff;
+    border-radius: .625rem;
+}
+.card-sombra{
+    background-color: #fff;
+    border: none;
+    border-radius: .625rem;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
+}
+
+.item_cart-sombra{
+    background-color: #ececec;
+}
