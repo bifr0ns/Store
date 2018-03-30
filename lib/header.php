@@ -35,28 +35,28 @@
                         <div class="d-flex flex-column">
                             <div class="h6 my-0 py-0 text-center font-weight-bold">Recién nacido</div>
                             <div class="py-0 text-center">0 a 12 meses</div>
-                            <div class="py-0 text-center"><i class="fa fa-venus fa-1x icon-female"></i><i class="fa fa-mars fa-1x icon-male"></i></div>
+                            <div class="py-0 text-center genders"><i class="fa fa-venus fa-1x icon-female font-weight-bold"></i><i class="fa fa-mars fa-1x icon-male px-1 font-weight-bold"></i></div>
                         </div>
                     </li>
                     <li class="nav-item px-3">
                         <div class="d-flex flex-column">
                             <div class="h6 my-0 py-0 text-center font-weight-bold">Baby</div>
-                            <div class="py-0">0 a 12 meses</div>
-                            <div class="py-0"></div>
+                            <div class="py-0 text-center">0 a 12 meses</div>
+                            <div class="py-0 text-center genders"><i class="fa fa-venus fa-1x icon-female font-weight-bold"></i><i class="fa fa-mars fa-1x icon-male font-weight-bold"></i></div>
                         </div>
                     </li>
                     <li class="nav-item px-3">
                         <div class="d-flex flex-column">
                             <div class="h6 my-0 py-0 text-center font-weight-bold">Mini</div>
-                            <div class="py-0">0 a 12 meses</div>
-                            <div class="py-0"></div>
+                            <div class="py-0 text-center">0 a 12 meses</div>
+                            <div class="py-0 text-center genders"><i class="fa fa-venus fa-1x icon-female font-weight-bold"></i><i class="fa fa-mars fa-1x icon-male font-weight-bold"></i></div>
                         </div>
                     </li>
                     <li class="nav-item px-3">
                         <div class="d-flex flex-column">
                             <div class="h6 my-0 py-0 text-center font-weight-bold">Junior</div>
-                            <div class="py-0">0 a 12 meses</div>
-                            <div class="py-0"></div>
+                            <div class="py-0 text-center">0 a 12 meses</div>
+                            <div class="py-0 text-center genders"><i class="fa fa-venus fa-1x icon-female font-weight-bold"></i><i class="fa fa-mars fa-1x icon-male font-weight-bold"></i></div>
                         </div>
                     </li>
                     <li class="nav-item px-3">

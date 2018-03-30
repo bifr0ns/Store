@@ -17,12 +17,16 @@
 }
 
 .icon-female {
-    font-size: 1.5vmax;
+    font-size: 1.3vmax;
     margin-right: 4%;
     color: #f49cb4;
     border-style: solid;
     border-color: #f49cb4;
     border-radius: 20%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .icon-female:hover {
@@ -31,12 +35,16 @@
 }
 
 .icon-male {
-    font-size: 1.5vmax;
+    font-size: 1.3vmax;
     margin-left: 4%;
     color: #57c8f4;
     border-style: solid;
     border-color: #57c8f4;
     border-radius: 20%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .icon-male:hover {
