@@ -21,7 +21,7 @@
 </head>
 <body class="gray">
     <div class="container-fluid px-0">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white ">
             <a class="navbar-brand" href="#">
                 <img src="./img/logo.svg" alt="Responsive image" style="width:200px;">
             </a>

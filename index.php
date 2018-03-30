@@ -1,8 +1,9 @@
 <?PHP
 include_once('lib/header.php');
 ?>
-
+<br><br><br><br><br>
 <div class="row mx-0">
+
     <div class="col-12 px-0">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
