@@ -18,13 +18,12 @@
     <script src="/js/popper.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="js/shards.js"></script>
-    <script src="js/easytimer/easytimer.js"></script>
 </head>
 <body class="gray">
     <div class="container-fluid px-0">
         <nav class="navbar navbar-expand-lg navbar-light bg-white ">
             <a class="navbar-brand" href="#">
-                <img src="./img/logo.svg" alt="Responsive image">
+                <img src="./img/logo.svg" alt="Responsive image" style="width:200px;">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
