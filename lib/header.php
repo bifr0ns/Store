@@ -21,48 +21,47 @@
 </head>
 <body class="gray">
     <div class="container-fluid px-0">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white ">
-            <a class="navbar-brand" href="#">
-                <img src="./img/logo.svg" alt="Responsive image" style="width:200px;">
-            </a>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white pt-1 align-items-start">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.svg" alt="Responsive image" style="width:200px;">
+            </a>s
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto align-items-start">
                     <li class="nav-item px-3 genders">
                         <div class="d-flex flex-column">
-                            <div class="h6 my-0 py-0 text-center font-weight-bold">Recién nacido</div>
+                            <div class="h6 my-0 py-0 text-center font-weight-bold" style="color:#0072CE">Recién nacido</div>
                             <div class="py-0 text-center">0 a 12 meses</div>
                             <div class="py-0 text-center item-gender" style="display: none;"><i class="fa fa-venus fa-1x icon-female font-weight-bold gg"></i><i class="fa fa-mars fa-1x icon-male px-1 font-weight-bold"></i></div>
                         </div>
                     </li>
                     <li class="nav-item px-3 genders">
                         <div class="d-flex flex-column">
-                            <div class="h6 my-0 py-0 text-center font-weight-bold">Baby</div>
+                            <div class="h6 my-0 py-0 text-center font-weight-bold" style="color:#0072CE">Baby</div>
                             <div class="py-0 text-center">0 a 12 meses</div>
                             <div class="py-0 text-center item-gender" style="display: none;"><i class="fa fa-venus fa-1x icon-female font-weight-bold"></i><i class="fa fa-mars fa-1x icon-male font-weight-bold"></i></div>
                         </div>
                     </li>
                     <li class="nav-item px-3 genders">
                         <div class="d-flex flex-column">
-                            <div class="h6 my-0 py-0 text-center font-weight-bold">Mini</div>
+                            <div class="h6 my-0 py-0 text-center font-weight-bold" style="color:#0072CE">Mini</div>
                             <div class="py-0 text-center">0 a 12 meses</div>
                             <div class="py-0 text-center item-gender" style="display: none;"><i class="fa fa-venus fa-1x icon-female font-weight-bold"></i><i class="fa fa-mars fa-1x icon-male font-weight-bold"></i></div>
                         </div>
                     </li>
                     <li class="nav-item px-3 genders">
                         <div class="d-flex flex-column">
-                            <div class="h6 my-0 py-0 text-center font-weight-bold">Junior</div>
+                            <div class="h6 my-0 py-0 text-center font-weight-bold" style="color:#0072CE">Junior</div>
                             <div class="py-0 text-center">0 a 12 meses</div>
                             <div class="py-0 text-center item-gender" style="display: none;"><i class="fa fa-venus fa-1x icon-female font-weight-bold"></i><i class="fa fa-mars fa-1x icon-male font-weight-bold"></i></div>
                         </div>
                     </li>
                     <li class="nav-item px-3">
                         <div class="d-flex flex-column">
-                            <div class="h6 my-0 py-0 text-center font-weight-bold">Puericultura</div>
-                            <div class="h6 my-0 py-0 text-center font-weight-bold">y regalos</div>
+                            <div class="h6 my-0 py-0 text-center font-weight-bold" style="color:#0072CE">Puericultura</div>
+                            <div class="h6 my-0 py-0 text-center font-weight-bold" style="color:#0072CE">y regalos</div>
                             <div class="py-0"></div>
                         </div>
                     </li>
