@@ -30,7 +30,43 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto align-items-start">
+                    <li class="nav-item px-3">
+                        <div class="d-flex flex-column">
+                            <div class="h6 my-0 py-0 text-center font-weight-bold">Recién nacido</div>
+                            <div class="py-0 text-center">0 a 12 meses</div>
+                            <div class="py-0 text-center"><i class="fa fa-venus fa-1x icon-female"></i><i class="fa fa-mars fa-1x icon-male"></i></div>
+                        </div>
+                    </li>
+                    <li class="nav-item px-3">
+                        <div class="d-flex flex-column">
+                            <div class="h6 my-0 py-0 text-center font-weight-bold">Baby</div>
+                            <div class="py-0">0 a 12 meses</div>
+                            <div class="py-0"></div>
+                        </div>
+                    </li>
+                    <li class="nav-item px-3">
+                        <div class="d-flex flex-column">
+                            <div class="h6 my-0 py-0 text-center font-weight-bold">Mini</div>
+                            <div class="py-0">0 a 12 meses</div>
+                            <div class="py-0"></div>
+                        </div>
+                    </li>
+                    <li class="nav-item px-3">
+                        <div class="d-flex flex-column">
+                            <div class="h6 my-0 py-0 text-center font-weight-bold">Junior</div>
+                            <div class="py-0">0 a 12 meses</div>
+                            <div class="py-0"></div>
+                        </div>
+                    </li>
+                    <li class="nav-item px-3">
+                        <div class="d-flex flex-column">
+                            <div class="h6 my-0 py-0 text-center font-weight-bold">Puericultura</div>
+                            <div class="h6 my-0 py-0 text-center font-weight-bold">y regalos</div>
+                            <div class="py-0"></div>
+                        </div>
+                    </li>
+<!--
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
@@ -50,11 +86,11 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
+                    </li>-->
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
+                <!--<form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+                </form>-->
             </div>
         </nav>

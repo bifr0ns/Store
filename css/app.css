@@ -15,3 +15,31 @@
     -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
 }
+
+.icon-female {
+    font-size: 1.5vmax;
+    margin-right: 4%;
+    color: #f49cb4;
+    border-style: solid;
+    border-color: #f49cb4;
+    border-radius: 20%;
+}
+
+.icon-female:hover {
+    color: #ffffff;
+    background-color: #f49cb4;
+}
+
+.icon-male {
+    font-size: 1.5vmax;
+    margin-left: 4%;
+    color: #57c8f4;
+    border-style: solid;
+    border-color: #57c8f4;
+    border-radius: 20%;
+}
+
+.icon-male:hover {
+    color: #ffffff;
+    background-color: #57c8f4;
+}
