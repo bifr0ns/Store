@@ -2,7 +2,7 @@
 include_once('lib/header.php');
 ?>
 
-<div class="row">
+<div class="row mx-0">
 <br>
     <br>
 
