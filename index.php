@@ -39,6 +39,10 @@ include_once('lib/header.php');
     </div>
   </div>
 </div>
+<br><br><br><br><br>
+<?PHP
+include_once('lib/footer.php');
+?>
 </div>
 </body>
 <script src="js/structure/structure.js"></script>
