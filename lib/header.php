@@ -27,7 +27,7 @@
             </button>
             <a class="navbar-brand" href="#">
                 <img src="./img/logo.svg" alt="Responsive image" style="width:200px;">
-            </a>s
+            </a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto align-items-start">
                     <li class="nav-item px-3 genders">
