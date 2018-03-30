@@ -3,10 +3,10 @@
 
     <!--Footer Links-->
     <div class="container-fluid text-center text-md-left bg-light">
-        <div class="row py-4">
+        <div class="row py-4 justify-content-center">
 
             <!--First column-->
-            <div class="col-md-3 text-center">
+            <div class="col-md-2 col-sm-5 text-center">
                 <h6 class="text-dark font-weight-bold">Acerca de</h6>
                 <ul class="list-unstyled">
                     <li>
@@ -16,7 +16,7 @@
             </div>
 
             <!--Second column-->
-            <div class="col-md-3 text-center">
+            <div class="col-md-2 col-sm-5 text-center">
                 <h6 class="text-dark font-weight-bold">Ayuda</h6>
                 <ul class="list-unstyled">
                     <li>
@@ -29,7 +29,7 @@
             </div>
 
             <!--Third column-->
-            <div class="col-md-3 text-center">
+            <div class="col-md-2 col-sm-5 text-center">
                 <h6 class="text-dark font-weight-bold">Redes Sociales</h6>
                 <ul class="list-unstyled">
                     <li>
@@ -42,7 +42,7 @@
             </div>
 
             <!--Fourth column-->
-            <div class="col-md-3 text-center">
+            <div class="col-md-2 col-sm-5 text-center">
                 <h6 class="text-dark font-weight-bold">Mi Cuenta</h6>
                 <ul class="list-unstyled">
                     <li>
