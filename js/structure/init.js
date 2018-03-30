@@ -4,6 +4,11 @@ $(function($) {
         interval: 2000
     })
 
-
+    $(document).on('mouseenter','.genders',function () {
+        $(this).find(".item-gender").slideDown(500);
+    });
+    $(document).on('mouseleave','.genders',function () {
+        $(this).find(".item-gender").slideUp(500);
+    });
 
 });
