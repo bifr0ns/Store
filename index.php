@@ -45,6 +45,7 @@ include_once('lib/footer.php');
 ?>
 </div>
 </body>
+
 <script src="js/structure/structure.js"></script>
 <script src="js/structure/init.js"></script>
 <script src="js/structure/dao.js"></script>
