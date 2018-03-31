@@ -37,7 +37,7 @@
                         <div class="d-flex flex-column">
                             <div class="h6 my-0 py-0 text-center font-weight-bold" style="color:#0072CE">Recién nacido</div>
                             <div class="py-0 text-center">0 a 12 meses</div>
-                            <div class="py-0 text-center item-gender" style="display: none;"><i class="fa fa-venus fa-1x icon-female font-weight-bold gg"></i><i class="fa fa-mars fa-1x icon-male px-1 font-weight-bold"></i></div>
+                            <div class="py-0 text-center item-gender" style="display: none;"><i class="fa fa-venus fa-1x icon-female font-weight-bold gg"></i><i class="fa fa-mars fa-1x icon-male font-weight-bold"></i></div>
                         </div>
                     </li>
                     <li class="nav-item px-3 genders">
