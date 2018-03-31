@@ -34,38 +34,38 @@ include_once('lib/header.php');
     <div class="row mx-0">
 
       <?php // NOTE: Aquí empieza la carta ?>
-      <div class="col-12 col-sm-6 col-lg-4 px-4 my-4">
+      <div class="col-12 col-sm-6 col-lg-4 mb-4">
         <div class="card">
           <img class="card-img-top" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="Card image cap">
-          <div class="card-body">
+          <div class="card-body px-3">
             <p class="card-title text-center">Camiseta corta niña con lazos</p>
             <p class="card-text text-center">$ 319.00</p>
             <p class="card-text text-center"><strong>Más colores</strong></p>
-            <p class="mb-0 text-center"><a href="#" class="btn btn-secondary">Añadir a la bolsa</a></p>
+            <p class="mb-0 text-center"><a href="#" class="btn btn-secondary">AÑADIR A LA BOLSA</a></p>
           </div>
         </div>
       </div>
 
-      <div class="col-12 col-sm-6 col-lg-4 px-4 my-4">
+      <div class="col-12 col-sm-6 col-lg-4 mb-4">
         <div class="card">
           <img class="card-img-top" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="Card image cap">
-          <div class="card-body">
+          <div class="card-body px-3">
             <p class="card-title text-center">Camiseta corta niña con lazos</p>
             <p class="card-text text-center">$ 319.00</p>
             <p class="card-text text-center"><strong>Más colores</strong></p>
-            <p class="mb-0 text-center"><a href="#" class="btn btn-secondary">Añadir a la bolsa</a></p>
+            <p class="mb-0 text-center"><a href="#" class="btn btn-secondary">AÑADIR A LA BOLSA</a></p>
           </div>
         </div>
       </div>
 
-      <div class="col-12 col-sm-6 col-lg-4 px-4 my-4">
+      <div class="col-12 col-sm-6 col-lg-4 mb-4">
         <div class="card">
           <img class="card-img-top" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="Card image cap">
-          <div class="card-body">
+          <div class="card-body px-3">
             <p class="card-title text-center">Camiseta corta niña con lazos</p>
             <p class="card-text text-center">$ 319.00</p>
             <p class="card-text text-center"><strong>Más colores</strong></p>
-            <p class="mb-0 text-center"><a href="#" class="btn btn-secondary">Añadir a la bolsa</a></p>
+            <p class="mb-0 text-center"><a href="#" class="btn btn-secondary">AÑADIR A LA BOLSA</a></p>
           </div>
         </div>
       </div>
