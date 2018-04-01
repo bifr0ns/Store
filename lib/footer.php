@@ -54,8 +54,16 @@
     </div>
 
     <!--Copyright-->
-    <div class="footer-copyright py-3 text-center font-weight-bold">
-        <span class="text-dark" style="font-size: 13px;"> © 2018 Venta en linea Mayoral en México </span>
+    <div class="footer-copyright py-3 text-center font-weight-bold row mx-0 justify-content-center">
+      <div class="col-md-5 col-sm-12">
+        <span class="text-dark" style="font-size: 14px;"> © 2018 Venta en linea Mayoral en México </span>
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <a class="text-dark" style="font-size: 14px; text-decoration: underline;"> Aviso Legal </a>
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <a class="text-dark" style="font-size: 14px; text-decoration: underline;"> Política de privacidad </a>
+      </div>
     </div>
 
 </footer>

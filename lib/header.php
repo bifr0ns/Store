@@ -33,6 +33,7 @@
             <button type="button" class="btn btn-outline-primary align-self-center p-2 icon-cart d-lg-none">
                 <i class="fa fa-shopping-bag fa-2x" style="color:#0072CE"></i>
             </button>
+<<<<<<< HEAD
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div id="collapse-pc" class="d-none d-lg-block w-100">
                     <ul class="navbar-nav pt-2 w-100 align-items-start">
@@ -105,6 +106,71 @@
                         <button type="button" class="list-group-item list-group-item-action p-2 h6 my-0 py-0 text-left font-weight-bold" style="color:#0072CE">Puericultura y regalos</button>
                     </ul>
                 </div>
+=======
+            <div class="collapse navbar-collapse collapse-pc" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto align-items-start">
+                    <li class="nav-item px-3 genders">
+                        <div class="d-flex flex-column">
+                            <div class="h6 my-0 py-0 text-center font-weight-bold" style="color:#0072CE">Recién nacido</div>
+                            <div class="py-0 text-center">0 a 12 meses</div>
+                            <div class="py-0 text-center item-gender" style="display: none;"><i class="fa fa-venus fa-1x icon-female font-weight-bold gg"></i><i class="fa fa-mars fa-1x icon-male font-weight-bold"></i></div>
+                        </div>
+                    </li>
+                    <li class="nav-item px-3 genders">
+                        <div class="d-flex flex-column">
+                            <div class="h6 my-0 py-0 text-center font-weight-bold" style="color:#0072CE">Baby</div>
+                            <div class="py-0 text-center">0 a 12 meses</div>
+                            <div class="py-0 text-center item-gender" style="display: none;"><i class="fa fa-venus fa-1x icon-female font-weight-bold"></i><i class="fa fa-mars fa-1x icon-male font-weight-bold"></i></div>
+                        </div>
+                    </li>
+                    <li class="nav-item px-3 genders">
+                        <div class="d-flex flex-column">
+                            <div class="h6 my-0 py-0 text-center font-weight-bold" style="color:#0072CE">Mini</div>
+                            <div class="py-0 text-center">0 a 12 meses</div>
+                            <div class="py-0 text-center item-gender" style="display: none;"><i class="fa fa-venus fa-1x icon-female font-weight-bold"></i><i class="fa fa-mars fa-1x icon-male font-weight-bold"></i></div>
+                        </div>
+                    </li>
+                    <li class="nav-item px-3 genders">
+                        <div class="d-flex flex-column">
+                            <div class="h6 my-0 py-0 text-center font-weight-bold" style="color:#0072CE">Junior</div>
+                            <div class="py-0 text-center">0 a 12 meses</div>
+                            <div class="py-0 text-center item-gender" style="display: none;"><i class="fa fa-venus fa-1x icon-female font-weight-bold"></i><i class="fa fa-mars fa-1x icon-male font-weight-bold"></i></div>
+                        </div>
+                    </li>
+                    <li class="nav-item px-3">
+                        <div class="d-flex flex-column">
+                            <div class="h6 my-0 py-0 text-center font-weight-bold" style="color:#0072CE">Puericultura</div>
+                            <div class="h6 my-0 py-0 text-center font-weight-bold" style="color:#0072CE">y regalos</div>
+                            <div class="py-0"></div>
+                        </div>
+                    </li>
+<!--
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>-->
+                </ul>
+                <!--<form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>-->
+>>>>>>> 19d65ebc09333fd1ecd4fad67e2364111023db23
             </div>
         </nav>
         <!-- Modal User -->
