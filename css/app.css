@@ -52,3 +52,20 @@
     color: #ffffff;
     background-color: #57c8f4;
 }
+
+.icon-cart:hover
+    .fa{
+        color: #ffffff !important;
+}
+
+.icon-user:hover
+    .fa{
+    color: #ffffff !important;
+}
+
+.has-error input {
+    border: 1px solid #e81123;
+}
+.error {
+    color: #e81123;
+}

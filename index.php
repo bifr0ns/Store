@@ -4,6 +4,7 @@ include_once('lib/header.php');
 <br><br><br><br><br>
 <div class="row mx-0">
   <div class="col-12 px-0">
+      <span class="badge badge-pill badge-primary"> </span>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
