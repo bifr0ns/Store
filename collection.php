@@ -32,12 +32,12 @@ include_once('lib/header.php');
     <?php // NOTE: Título de la Colección ?>
     <div class="row mx-0">
       <h3 class="my-4 text-primary font-weight-bold">Novedades</h3>
-      <span class="my-auto text-right text-muted w-100 pr-3" style="font-size: 38px;"><span class="pr-2"><a class="fa fa-th-large border-dark border-right"></a></span><span class="pl-2" style="border-left: 1px solid"><a class="fa fa-th"></a></span></span>
+      <span class="my-auto text-right text-muted w-100 pr-3" style="font-size: 38px;"><span class="pr-2"><a class="fa fa-th-large border-dark border-right" id="btn_2col"></a></span><span class="pl-2" style="border-left: 1px solid"><a class="fa fa-th" id="btn_3col"></a></span></span>
     </div>
-    <div class="row mx-0">
+    <div class="row mx-0 d-flex w-100">
 
       <?php // NOTE: Aquí empieza la carta ?>
-      <div class="col-12 col-sm-6 col-lg-4 mb-4 px-1">
+      <div class="mb-4 cards mx-auto">
         <img class="card-img-top" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="Card image cap">
         <div class="card-body px-2 py-1">
           <p class="card-title text-center text-truncate">Camiseta corta niña con lazos</p>
@@ -48,7 +48,7 @@ include_once('lib/header.php');
       </div>
 
       <?php // NOTE: Aquí empieza la carta ?>
-      <div class="col-12 col-sm-6 col-lg-4 mb-4 px-1">
+      <div class="mb-4 cards mx-auto">
         <img class="card-img-top" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="Card image cap">
         <div class="card-body px-2 py-1">
           <p class="card-title text-center text-truncate">Camiseta corta niña con lazos</p>
@@ -59,7 +59,7 @@ include_once('lib/header.php');
       </div>
 
       <?php // NOTE: Aquí empieza la carta ?>
-      <div class="col-12 col-sm-6 col-lg-4 mb-4 px-1">
+      <div class="mb-4 cards mx-auto">
         <img class="card-img-top" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="Card image cap">
         <div class="card-body px-2 py-1">
           <p class="card-title text-center text-truncate">Camiseta corta niña con lazos</p>
