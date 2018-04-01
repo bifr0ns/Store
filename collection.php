@@ -30,7 +30,10 @@ include_once('lib/header.php');
     <img src="./img/banner/banner1.jpg" class="w-100">
 
     <?php // NOTE: Título de la Colección ?>
-    <h3 class="my-4 text-primary font-weight-bold">Novedades</h3>
+    <div class="row mx-0">
+      <h3 class="my-4 text-primary font-weight-bold">Novedades</h3>
+      <button type="button" name="button"></button>
+    </div>
     <div class="row mx-0">
 
       <?php // NOTE: Aquí empieza la carta ?>
