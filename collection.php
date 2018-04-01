@@ -15,9 +15,9 @@ include_once('lib/header.php');
     </ul>
   </div>
   <div class="d-lg-none p-3 col-12 col-sm-9">
-    <select class="custom-select w-100">
+    <select class="form-control p-0">
       <option selected>Elegir...</option>
-      <option>Novedades</option>
+      <option value="0">Novedades</option>
       <option>Camisetas</option>
       <option>Chaquetas</option>
       <option>Parkas</option>
