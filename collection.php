@@ -34,41 +34,35 @@ include_once('lib/header.php');
     <div class="row mx-0">
 
       <?php // NOTE: Aquí empieza la carta ?>
-      <div class="col-6 col-lg-4 mb-4 px-0">
-        <div class="card">
-          <img class="card-img-top" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="Card image cap">
-          <div class="card-body px-2">
-            <p class="card-title text-center">Camiseta corta niña con lazos</p>
-            <p class="card-text text-center">$ 319.00</p>
-            <p class="card-text text-center"><strong>Más colores</strong></p>
-            <a href="#" class="btn btn-secondary w-100">AÑADIR A LA BOLSA</a>
-          </div>
+      <div class="col-12 col-sm-6 col-lg-4 mb-4 px-1">
+        <img class="card-img-top" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="Card image cap">
+        <div class="card-body px-2">
+          <p class="card-title text-center text-truncate">Camiseta corta niña con lazos</p>
+          <p class="card-text text-center">$ 319.00</p>
+          <p class="card-text text-center"><strong>Más colores</strong></p>
+          <p class="text-center mb-0"><a href="#" class="btn btn-secondary px-0 text-center w-100" style="font-size:0.8rem">AÑADIR A LA BOLSA</a></p>
         </div>
       </div>
 
       <?php // NOTE: Aquí empieza la carta ?>
-      <div class="col-6 col-lg-4 mb-4 px-0">
-        <div class="card">
-          <img class="card-img-top" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="Card image cap">
-          <div class="card-body px-2">
-            <p class="card-title text-center">Camiseta corta niña con lazos</p>
-            <p class="card-text text-center">$ 319.00</p>
-            <p class="card-text text-center"><strong>Más colores</strong></p>
-            <a href="#" class="btn btn-secondary w-100">AÑADIR A LA BOLSA</a>
-          </div>
+      <div class="col-12 col-sm-6 col-lg-4 mb-4 px-1">
+        <img class="card-img-top" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="Card image cap">
+        <div class="card-body px-2">
+          <p class="card-title text-center text-truncate">Camiseta corta niña con lazos</p>
+          <p class="card-text text-center">$ 319.00</p>
+          <p class="card-text text-center"><strong>Más colores</strong></p>
+          <p class="text-center mb-0"><a href="#" class="btn btn-secondary px-0 text-center w-100" style="font-size:0.8rem">AÑADIR A LA BOLSA</a></p>
         </div>
       </div>
 
       <?php // NOTE: Aquí empieza la carta ?>
-      <div class="col-6 col-lg-4 mb-4 px-0">
-        <div class="card">
-          <img class="card-img-top" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="Card image cap">
-          <div class="card-body px-2">
-            <p class="card-title text-center">Camiseta corta niña con lazos</p>
-            <p class="card-text text-center">$ 319.00</p>
-            <p class="card-text text-center"><strong>Más colores</strong></p>
-            <a href="#" class="btn btn-secondary w-100">AÑADIR A LA BOLSA</a>
-          </div>
+      <div class="col-12 col-sm-6 col-lg-4 mb-4 px-1">
+        <img class="card-img-top" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="Card image cap">
+        <div class="card-body px-2">
+          <p class="card-title text-center text-truncate">Camiseta corta niña con lazos</p>
+          <p class="card-text text-center">$ 319.00</p>
+          <p class="card-text text-center"><strong>Más colores</strong></p>
+          <p class="text-center mb-0"><a href="#" class="btn btn-secondary px-0 text-center w-100" style="font-size:0.8rem">AÑADIR A LA BOLSA</a></p>
         </div>
       </div>
 
