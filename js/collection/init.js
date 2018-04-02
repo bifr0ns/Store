@@ -10,9 +10,24 @@ $(function($) {
     })
   }
 
-    /*$(".btn_collection_by_gender").on("click", function(){
-        redirectPost('collection.php', { category: $(this).attr("data-id"), subcategory: 0 });
-    });*/
+    $(document).on("click",".btn_items_by_collection", function(){
+
+      if($(this).attr("data-id") != 0){
+          redirectPost('collection.php', { category: $('#category').val(), subcategory: $(this).attr("data-id") });
+      } else {
+          redirectPost('collection.php', { category: $('#category').val(), subcategory: 0 });
+      }
+
+    });
+
+
+
+
+
+
+
+
+
 
   if (jQuery(window).width() < 768) {
     $('.cards').css({
@@ -73,5 +88,20 @@ $(function($) {
       },300);
     }
   });
+
+    function redirectPost(url, data) {
+        var form = document.createElement('form');
+        document.body.appendChild(form);
+        form.method = 'post';
+        form.action = url;
+        for (var name in data) {
+            var input = document.createElement('input');
+            input.type = 'hidden';
+            input.name = name;
+            input.value = data[name];
+            form.appendChild(input);
+        }
+        form.submit();
+    }
 
 });

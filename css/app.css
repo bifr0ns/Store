@@ -60,7 +60,7 @@
 
 .icon-user:hover
     .fa{
-    color: #ffffff !important;
+        color: #ffffff !important;
 }
 
 .has-error input {
