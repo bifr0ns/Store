@@ -1,3 +1,9 @@
+<?php
+
+$ip_static = 'http://genesysmi.site';
+$route_static = '';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +32,7 @@
             <button class="navbar-toggler align-self-center border-primary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars fa-2x" style="color:#0072CE"></i>
             </button>
-            <a class="navbar-brand mx-auto" href="#">
+            <a class="navbar-brand mx-auto" href="<?php echo $ip_static ?>">
                 <img src="./img/logo.svg" alt="Responsive image" style="width:200px;">
             </a>
             <button type="button" class="btn btn-outline-primary align-self-center p-2 icon-cart d-lg-none">
@@ -40,34 +46,45 @@
                             <div class="d-flex flex-column">
                                 <div class="h6 my-0 py-0 text-center font-weight-bold" style="color:#0072CE">Recién nacido</div>
                                 <div class="py-0 text-center">0 a 12 meses</div>
-                                <div class="py-0 text-center item-gender" style="display: none;"><i class="fa fa-venus fa-1x icon-female font-weight-bold gg"></i><i class="fa fa-mars fa-1x icon-male px-1 font-weight-bold"></i></div>
+                                <div class="py-0 text-center item-gender" style="display: none;">
+                                    <i class="fa fa-venus fa-1x icon-female font-weight-bold  btn_collection_by_gender" data-id="1"></i>
+                                    <i class="fa fa-mars fa-1x icon-male px-1 font-weight-bold  btn_collection_by_gender" data-id="2"></i>
+                                </div>
                             </div>
                         </li>
                         <li class="nav-item px-3 genders">
                             <div class="d-flex flex-column">
                                 <div class="h6 my-0 py-0 text-center font-weight-bold" style="color:#0072CE">Baby</div>
                                 <div class="py-0 text-center">6 a 36 meses</div>
-                                <div class="py-0 text-center item-gender" style="display: none;"><i class="fa fa-venus fa-1x icon-female font-weight-bold"></i><i class="fa fa-mars fa-1x icon-male font-weight-bold"></i></div>
+                                <div class="py-0 text-center item-gender" style="display: none;">
+                                    <i class="fa fa-venus fa-1x icon-female font-weight-bold  btn_collection_by_gender" data-id="3"></i>
+                                    <i class="fa fa-mars fa-1x icon-male font-weight-bold  btn_collection_by_gender" data-id="4"></i>
+                                </div>
                             </div>
                         </li>
                         <li class="nav-item px-3 genders">
                             <div class="d-flex flex-column">
                                 <div class="h6 my-0 py-0 text-center font-weight-bold" style="color:#0072CE">Mini</div>
                                 <div class="py-0 text-center">&nbsp;2 a 9 años&nbsp;</div>
-                                <div class="py-0 text-center item-gender" style="display: none;"><i class="fa fa-venus fa-1x icon-female font-weight-bold"></i><i class="fa fa-mars fa-1x icon-male font-weight-bold"></i></div>
+                                <div class="py-0 text-center item-gender" style="display: none;">
+                                    <i class="fa fa-venus fa-1x icon-female font-weight-bold  btn_collection_by_gender" data-id="5"></i>
+                                    <i class="fa fa-mars fa-1x icon-male font-weight-bold  btn_collection_by_gender" data-id="6"></i>
+                                </div>
                             </div>
                         </li>
                         <li class="nav-item px-3 genders">
                             <div class="d-flex flex-column">
                                 <div class="h6 my-0 py-0 text-center font-weight-bold" style="color:#0072CE">Junior</div>
                                 <div class="py-0 text-center">8 a 16 años</div>
-                                <div class="py-0 text-center item-gender" style="display: none;"><i class="fa fa-venus fa-1x icon-female font-weight-bold"></i><i class="fa fa-mars fa-1x icon-male font-weight-bold"></i></div>
+                                <div class="py-0 text-center item-gender" style="display: none;">
+                                    <i class="fa fa-venus fa-1x icon-female font-weight-bold  btn_collection_by_gender" data-id="7"></i>
+                                    <i class="fa fa-mars fa-1x icon-male font-weight-bold  btn_collection_by_gender" data-id="8"></i>
+                                </div>
                             </div>
                         </li>
                         <li class="nav-item px-3">
                             <div class="d-flex flex-column">
-                                <div class="h6 my-0 py-0 text-center font-weight-bold" style="color:#0072CE">Puericultura</div>
-                                <div class="h6 my-0 py-0 text-center font-weight-bold" style="color:#0072CE">y regalos</div>
+                                <div class="h6 my-0 py-0 text-center font-weight-bold  btn_collection_by_gender" style="color:#0072CE" data-id="9">Puericultura<br>y regalos</div>
                                 <div class="py-0"></div>
                             </div>
                         </li>

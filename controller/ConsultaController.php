@@ -9,8 +9,8 @@ switch ($_POST['funcion']){
     case 'getDetails':
         getDetails();
         break;
-    case 'getCat':
-        getCat();
+    case 'getCollections':
+        getCollections();
         break;
     case 'list_prod':
         list_prod();
@@ -78,17 +78,18 @@ function interes($id){
 
     return $data;
 }
-function getCat(){
+function getCollections(){
+    $id = $_POST['id_category'];
     $data = array();
 
-    $sql = "SELECT * FROM category";
+    $sql = "SELECT * FROM subcategories WHERE id_category=$id";
     $result = dbo_conn::getConn()->query($sql);
 
     while($row = $result->fetch_assoc()){
         $data[] =array(
-            'id_category' => $row['id_category'],
+            'id_subcategory' => $row['id_subcategory'],
             'name' => utf8_encode($row['name']),
-            'subcat' => getSubcat($row['id_category'])
+            'category' => $row['id_category']
         );
     }
 

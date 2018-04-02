@@ -1,5 +1,19 @@
 $(function($) {
 
+  getCollections($('#category').val());
+
+  function getCollections(category) {
+    var ajax = collection.dao.getCollections(category);
+    ajax.done(function (response) {
+        console.log(response);
+        collection.function.print_collections(response);
+    })
+  }
+
+    /*$(".btn_collection_by_gender").on("click", function(){
+        redirectPost('collection.php', { category: $(this).attr("data-id"), subcategory: 0 });
+    });*/
+
   if (jQuery(window).width() < 768) {
     $('.cards').css({
       'width': '49%',

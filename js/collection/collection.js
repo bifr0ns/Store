@@ -1,4 +1,4 @@
-var structure = {
+var collection = {
     dao: {},
     function: {},
     //data:{}

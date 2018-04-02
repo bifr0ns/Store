@@ -12,7 +12,7 @@ class dbo_conn {
 			$host = 'localhost';
 			$user = 'root';
 			$pass = '';
-			$db = 'ia';
+			$db = 'genesysmi';
 
 			try {
 

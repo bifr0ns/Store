@@ -4,15 +4,23 @@ include_once('lib/header.php');
 <br><br><br><br><br>
 <div class="row mx-0">
   <div class="col-lg-3 d-none d-lg-block">
-    <ul class="list-unstyled ml-3">
-      <strong style="font-size: 17px; margin-left: -9px;">COLECCIÓN</strong>
-      <li><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Novedades</a></li>
-      <li><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Camisetas</a></li>
-      <li><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Rebecas</a></li>
-      <li><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Chaquetas</a></li>
-      <li><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Parkas</a></li>
-      <li><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Fundas silla de paseo</a></li>
-    </ul>
+      <input type="hidden" class="form-control" id="category" name="category" value="<?php echo $_POST['category']?>">
+      <input type="hidden" class="form-control" id="subcategory" name="subcategory" value="<?php echo $_POST['subcategory']?>">
+      <strong class="ml-3" style="font-size: 17px; margin-left: -9px;">COLECCIÓN</strong>
+      <!--<ul class="list-unstyled ml-3">
+              <strong style="font-size: 17px; margin-left: -9px;">COLECCIÓN</strong>
+              <li><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Novedades</a></li>
+              <li><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Camisetas</a></li>
+              <li><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Rebecas</a></li>
+              <li><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Chaquetas</a></li>
+              <li><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Parkas</a></li>
+              <li><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Fundas silla de paseo</a></li>
+            </ul>-->
+      <div id="collections" class="d-flex flex-column ml-3">
+          <!--<div class="px-2 mb-0"><span class=""><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Primary</a></span></div>
+          <div class="px-2 mb-0"><span class=""><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Primary</a></span></div>
+          <div class="px-2 mb-0"><span class=""><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Primary</a></span></div>-->
+      </div>
   </div>
   <div class="d-lg-none p-3 col-12 col-sm-9">
     <select class="form-control p-0">
