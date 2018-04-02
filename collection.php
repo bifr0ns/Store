@@ -4,14 +4,14 @@ include_once('lib/header.php');
 <br><br><br><br><br>
 <div class="row mx-0">
   <div class="col-lg-3 d-none d-lg-block">
-    <ul>
-      <strong>Collección</strong>
-      <li><a class="text-primary" href="#">Novedades</a></li>
-      <li><a class="text-primary" href="#">Camisetas</a></li>
-      <li><a class="text-primary" href="#">Rebecas</a></li>
-      <li><a class="text-primary" href="#">Chaquetas</a></li>
-      <li><a class="text-primary" href="#">Parkas</a></li>
-      <li><a class="text-primary" href="#">Fundas silla de paseo</a></li>
+    <ul class="list-unstyled ml-3">
+      <strong style="font-size: 17px; margin-left: -9px;">Colección</strong>
+      <li><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Novedades</a></li>
+      <li><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Camisetas</a></li>
+      <li><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Rebecas</a></li>
+      <li><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Chaquetas</a></li>
+      <li><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Parkas</a></li>
+      <li><a class="text-primary" href="#" style="font-weight: 400; color: #0072CE">Fundas silla de paseo</a></li>
     </ul>
   </div>
   <div class="d-lg-none p-3 col-12 col-sm-9">
@@ -41,7 +41,7 @@ include_once('lib/header.php');
         <img class="card-img-top" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="Card image cap">
         <div class="card-body px-2 py-1">
           <p class="card-title text-center text-truncate">Camiseta corta niña con lazos</p>
-          <p class="card-text text-center mb-2">$ 319.00</p>
+          <p class="card-text text-center mb-2" style="font-weight: 400;">$ 319.00</p>
           <p class="card-text text-center mb-3"><strong>Más colores</strong></p>
           <p class="text-center mb-0"><a href="#" class="btn btn-secondary px-0 text-center w-100" style="font-size:0.8rem">AÑADIR A LA BOLSA</a></p>
         </div>
@@ -52,7 +52,7 @@ include_once('lib/header.php');
         <img class="card-img-top" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="Card image cap">
         <div class="card-body px-2 py-1">
           <p class="card-title text-center text-truncate">Camiseta corta niña con lazos</p>
-          <p class="card-text text-center mb-2">$ 319.00</p>
+          <p class="card-text text-center mb-2" style="font-weight: 400;">$ 319.00</p>
           <p class="card-text text-center mb-3"><strong>Más colores</strong></p>
           <p class="text-center mb-0"><a href="#" class="btn btn-secondary px-0 text-center w-100" style="font-size:0.8rem">AÑADIR A LA BOLSA</a></p>
         </div>
@@ -63,7 +63,7 @@ include_once('lib/header.php');
         <img class="card-img-top" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="Card image cap">
         <div class="card-body px-2 py-1">
           <p class="card-title text-center text-truncate">Camiseta corta niña con lazos</p>
-          <p class="card-text text-center mb-2">$ 319.00</p>
+          <p class="card-text text-center mb-2" style="font-weight: 400;">$ 319.00</p>
           <p class="card-text text-center mb-3"><strong>Más colores</strong></p>
           <p class="text-center mb-0"><a href="#" class="btn btn-secondary px-0 text-center w-100" style="font-size:0.8rem">AÑADIR A LA BOLSA</a></p>
         </div>

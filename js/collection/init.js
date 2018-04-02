@@ -39,8 +39,8 @@ $(function($) {
     }
     else {
       $('.cards').animate({
-        'width': '80%',
-        'max-width': '80%'
+        'width': '94%',
+        'max-width': '94%'
       },300);
     }
   });
