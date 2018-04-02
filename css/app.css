@@ -69,3 +69,10 @@
 .error {
     color: #e81123;
 }
+.s_color {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.s_color:hover {
+    border-style: solid;
+}

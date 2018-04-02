@@ -52,15 +52,15 @@ include_once('lib/header.php');
         <div class="card-body px-2 py-1">
           <p class="card-title text-center text-truncate">Camiseta corta niña con lazos</p>
           <p class="card-text text-center mb-2" style="font-weight: 400;">$ 319.00</p>
-          <p class="card-text text-center mb-3"><strong>Más colores</strong></p>
+          <p class="card-text text-center mb-0"><strong>Más colores</strong></p>
 
 <?php // NOTE: Aquí van los colores de cada articulo ?>
           <div class="w-100 d-inline-flex justify-content-center mb-3">
-            <span class="mr-1 rounded-circle" style="background-color: rgb(229, 222, 90); width: 1.2rem; height: 1.2rem;" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-            <span class="mr-1 rounded-circle" style="background-color: rgb(91, 117, 230); width: 1.2rem; height: 1.2rem;" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-            <span class="mr-1 rounded-circle" style="background-color: rgb(91, 205, 230); width: 1.2rem; height: 1.2rem;" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-            <span class="mr-1 rounded-circle" style="background-color: rgb(224, 66, 66); width: 1.2rem; height: 1.2rem;" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-            <span class="mr-1 rounded-circle" style="background-color: rgb(230, 91, 199); width: 1.2rem; height: 1.2rem;" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(229, 222, 90);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(91, 117, 230);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(91, 205, 230);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(224, 66, 66);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(230, 91, 199);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
           </div>
 
 <?php // NOTE:  Boton añadir ?>
@@ -74,15 +74,15 @@ include_once('lib/header.php');
         <div class="card-body px-2 py-1">
           <p class="card-title text-center text-truncate">Camiseta corta niña con lazos</p>
           <p class="card-text text-center mb-2" style="font-weight: 400;">$ 319.00</p>
-          <p class="card-text text-center mb-3"><strong>Más colores</strong></p>
+          <p class="card-text text-center mb-0"><strong>Más colores</strong></p>
 
 <?php // NOTE: Aquí van los colores de cada articulo ?>
           <div class="w-100 d-inline-flex justify-content-center mb-3">
-            <span class="mr-1 rounded-circle" style="background-color: rgb(229, 222, 90); width: 1.2rem; height: 1.2rem;" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-            <span class="mr-1 rounded-circle" style="background-color: rgb(91, 117, 230); width: 1.2rem; height: 1.2rem;" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-            <span class="mr-1 rounded-circle" style="background-color: rgb(91, 205, 230); width: 1.2rem; height: 1.2rem;" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-            <span class="mr-1 rounded-circle" style="background-color: rgb(224, 66, 66); width: 1.2rem; height: 1.2rem;" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-            <span class="mr-1 rounded-circle" style="background-color: rgb(230, 91, 199); width: 1.2rem; height: 1.2rem;" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(229, 222, 90);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(91, 117, 230);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(91, 205, 230);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(224, 66, 66);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(230, 91, 199);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
           </div>
 
 <?php // NOTE:  Boton añadir ?>
@@ -96,15 +96,15 @@ include_once('lib/header.php');
         <div class="card-body px-2 py-1">
           <p class="card-title text-center text-truncate">Camiseta corta niña con lazos</p>
           <p class="card-text text-center mb-2" style="font-weight: 400;">$ 319.00</p>
-          <p class="card-text text-center mb-3"><strong>Más colores</strong></p>
+          <p class="card-text text-center mb-0"><strong>Más colores</strong></p>
 
 <?php // NOTE: Aquí van los colores de cada articulo ?>
           <div class="w-100 d-inline-flex justify-content-center mb-3">
-            <span class="mr-1 rounded-circle" style="background-color: rgb(229, 222, 90); width: 1.2rem; height: 1.2rem;" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-            <span class="mr-1 rounded-circle" style="background-color: rgb(91, 117, 230); width: 1.2rem; height: 1.2rem;" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-            <span class="mr-1 rounded-circle" style="background-color: rgb(91, 205, 230); width: 1.2rem; height: 1.2rem;" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-            <span class="mr-1 rounded-circle" style="background-color: rgb(224, 66, 66); width: 1.2rem; height: 1.2rem;" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-            <span class="mr-1 rounded-circle" style="background-color: rgb(230, 91, 199); width: 1.2rem; height: 1.2rem;" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(229, 222, 90);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(91, 117, 230);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(91, 205, 230);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(224, 66, 66);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(230, 91, 199);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
           </div>
 
 <?php // NOTE:  Boton añadir ?>
