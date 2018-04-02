@@ -72,6 +72,25 @@ include_once('lib/header.php');
     </div>
   </div>
 </div>
+
+<div class="row mx-0">
+  <div class="col-2">
+    <img class="w-100 px-4 pb-4" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="">
+    <div class="w-100">
+      <img class="w-100 px-4 pb-4" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/2.jpg" alt="">
+    </div>
+    <div class="w-100">
+      <img class="w-100 px-4 pb-4" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/3.jpg" alt="">
+    </div>
+  </div>
+  <div class="col-5 px-0">
+    <img class="w-100" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="">
+  </div>
+  <div class="col-5">
+
+  </div>
+</div>
+
 <?php
 include_once('lib/footer.php');
 ?>
