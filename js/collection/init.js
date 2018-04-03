@@ -1,24 +1,17 @@
 $(function($) {
 
-  getCollections($('#category').val());
+    collection.function.getCollections($('#category').val());
+    collection.function.getProducts($('#subcategory').val());
 
-  function getCollections(category) {
-    var ajax = collection.dao.getCollections(category);
-    ajax.done(function (response) {
-        console.log(response);
-        collection.function.print_collections(response);
-    })
-  }
+  $(document).on("click",".btn_items_by_collection", function(){
 
-    $(document).on("click",".btn_items_by_collection", function(){
+    if($(this).attr("data-id") != 0){
+        redirectPost('collection.php', { category: $('#category').val(), subcategory: $(this).attr("data-id") });
+    } else {
+        redirectPost('collection.php', { category: $('#category').val(), subcategory: 0 });
+    }
 
-      if($(this).attr("data-id") != 0){
-          redirectPost('collection.php', { category: $('#category').val(), subcategory: $(this).attr("data-id") });
-      } else {
-          redirectPost('collection.php', { category: $('#category').val(), subcategory: 0 });
-      }
-
-    });
+  });
 
 
 

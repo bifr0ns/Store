@@ -44,11 +44,33 @@ include_once('lib/header.php');
       <?php // NOTE: Botones para cambiar el tamaño de las col ?>
       <span class="my-auto text-right text-muted w-100 pr-3" style="font-size: 38px;"><span class="pr-2"><a class="fa fa-th-large border-dark border-right" id="btn_2col"></a></span><span class="pl-2" style="border-left: 1px solid"><a class="fa fa-th" id="btn_3col"></a></span></span>
     </div>
-    <div class="row mx-0 d-flex w-100">
+    <div id='cards_container' class="row mx-0 d-flex w-100">
+
+
+      <!--<div class="mb-4 cards mr-auto">
+        <img class="card-img-top" src="./img/products/1.jpg" alt="Card image cap">
+        <div class="card-body px-2 py-1">
+          <p class="card-title text-center text-truncate">Camiseta corta niña con lazos</p>
+          <p class="card-text text-center mb-2" style="font-weight: 400;">$ 319.00</p>
+          <p class="card-text text-center mb-0"><strong>Más colores</strong></p>
+
+
+          <div class="w-100 d-inline-flex justify-content-center mb-3">
+            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(229, 222, 90);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(91, 117, 230);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(91, 205, 230);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(224, 66, 66);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(230, 91, 199);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+          </div>
+
+
+          <p class="text-center mb-0"><a href="#" class="btn btn-secondary px-0 text-center w-100" style="font-size:0.8rem">AÑADIR A LA BOLSA</a></p>
+        </div>
+      </div>
 
       <?php // NOTE: Aquí empieza la carta ?>
       <div class="mb-4 cards mx-auto">
-        <img class="card-img-top" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="Card image cap">
+        <img class="card-img-top" src="./img/products/1.jpg" alt="Card image cap">
         <div class="card-body px-2 py-1">
           <p class="card-title text-center text-truncate">Camiseta corta niña con lazos</p>
           <p class="card-text text-center mb-2" style="font-weight: 400;">$ 319.00</p>
@@ -70,7 +92,7 @@ include_once('lib/header.php');
 
       <?php // NOTE: Aquí empieza la carta ?>
       <div class="mb-4 cards mx-auto">
-        <img class="card-img-top" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="Card image cap">
+        <img class="card-img-top" src="./img/products/1.jpg" alt="Card image cap">
         <div class="card-body px-2 py-1">
           <p class="card-title text-center text-truncate">Camiseta corta niña con lazos</p>
           <p class="card-text text-center mb-2" style="font-weight: 400;">$ 319.00</p>
@@ -88,29 +110,7 @@ include_once('lib/header.php');
 <?php // NOTE:  Boton añadir ?>
           <p class="text-center mb-0"><a href="#" class="btn btn-secondary px-0 text-center w-100" style="font-size:0.8rem">AÑADIR A LA BOLSA</a></p>
         </div>
-      </div>
-
-      <?php // NOTE: Aquí empieza la carta ?>
-      <div class="mb-4 cards mx-auto">
-        <img class="card-img-top" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="Card image cap">
-        <div class="card-body px-2 py-1">
-          <p class="card-title text-center text-truncate">Camiseta corta niña con lazos</p>
-          <p class="card-text text-center mb-2" style="font-weight: 400;">$ 319.00</p>
-          <p class="card-text text-center mb-0"><strong>Más colores</strong></p>
-
-<?php // NOTE: Aquí van los colores de cada articulo ?>
-          <div class="w-100 d-inline-flex justify-content-center mb-3">
-            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(229, 222, 90);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(91, 117, 230);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(91, 205, 230);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(224, 66, 66);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-            <span class="mr-1 rounded-circle s_color" style="background-color: rgb(230, 91, 199);" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-          </div>
-
-<?php // NOTE:  Boton añadir ?>
-          <p class="text-center mb-0"><a href="#" class="btn btn-secondary px-0 text-center w-100" style="font-size:0.8rem">AÑADIR A LA BOLSA</a></p>
-        </div>
-      </div>
+      </div>-->
 
     </div>
   </div>
@@ -119,16 +119,16 @@ include_once('lib/header.php');
 <?php // NOTE: Aquí empieza la vista previa del artículo ?>
 <div class="row mx-0">
   <div class="col-2">
-    <img class="w-100 px-4 pb-4" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="">
+    <img class="w-100 px-4 pb-4" src="./img/products/1.jpg" alt="">
     <div class="w-100">
-      <img class="w-100 px-4 pb-4" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/2.jpg" alt="">
+      <img class="w-100 px-4 pb-4" src="./img/products/2.jpg" alt="">
     </div>
     <div class="w-100">
-      <img class="w-100 px-4 pb-4" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/3.jpg" alt="">
+      <img class="w-100 px-4 pb-4" src="./img/products/3.jpg" alt="">
     </div>
   </div>
   <div class="col-5 px-0">
-    <img class="w-100" src="./img/recien_nacido_f/camisetas/camiseta_corta_niña_con_lazos/1.jpg" alt="">
+    <img class="w-100" src="./img/products/1.jpg" alt="">
   </div>
   <div class="col-5 pl-5">
 
