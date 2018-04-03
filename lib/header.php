@@ -153,7 +153,11 @@ $route_static = '';
                             </div>
                             <div class="col-md-6 col-12">
                                 <p class="h3 font-weight-bold" style="color:#0072CE">Registrarme</p>
-                                <button type="submit" class="btn btn-primary btn_go_registration">Registrarme</button>
+                                Regístrate y tendrás servicios personalizados, como por ejemplo:
+                                <ul><li>Podrás comprar sin tener que rellenar de nuevo los formularios</li>
+                                <li>Podrás crear tu wishlist o lista de deseos </li>
+                                <li>Te informaremos puntualmente sobre nuestras ofertas o promociones</li></ul>
+                                <button type="submit" class="btn btn-primary btn_go_registration" onClick="/registration.php">Registrarme</button>
                             </div>
                         </div>
                     </div>
