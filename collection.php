@@ -38,13 +38,13 @@ include_once('lib/header.php');
     <img src="./img/banner/banner1.jpg" class="w-100 mb-4">
 
     <?php // NOTE: Título de la Colección ?>
-    <div class="row mx-0">
-      <h3 class="text-primary font-weight-bold mb-0">Novedades</h3>
+    <div id="collection-title" class="row mx-0">
+
 
       <?php // NOTE: Botones para cambiar el tamaño de las col ?>
       <span class="my-auto text-right text-muted w-100 pr-3" style="font-size: 38px;"><span class="pr-2"><a class="fa fa-th-large border-dark border-right" id="btn_2col"></a></span><span class="pl-2" style="border-left: 1px solid"><a class="fa fa-th" id="btn_3col"></a></span></span>
     </div>
-    <div id='cards_container' class="row mx-0 d-flex w-100">
+    <div id='cards_container' class="row mx-0 w-100">
 
 
       <!--<div class="mb-4 cards mr-auto">
