@@ -15,39 +15,39 @@ include_once('lib/header.php');
 <form class="form-horizontal row justify-content-md-center" action="/action_page.php">
 <div class="col-md-auto">
   <div class="form-group d-flex">
-    <label class="control-label col-sm-3 my-auto" for="email">Nombre: *</label>
+    <label class="control-label col-sm-3 my-auto p-0" for="name">Nombre: *</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" id="email" placeholder="Ingresa tu nombre">
+      <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre">
     </div>
   </div>
   <div class="form-group d-flex">
-    <label class="control-label col-sm-3" for="pwd">Apellido(s):*</label>
+    <label class="control-label col-sm-3 p-0" for="lastname">Apellido(s): *</label>
     <div class="col-sm-10"> 
-      <input type="text" class="form-control" id="pwd" placeholder="Ingresa tus apellidos">
+      <input type="text" class="form-control" id="lastname" placeholder="Ingresa tus apellidos">
     </div>
   </div>
   <div class="form-group d-flex">
-    <label class="control-label col-sm-3" for="pwd">Email:*</label>
+    <label class="control-label col-sm-3 p-0" for="email">Email: *</label>
     <div class="col-sm-10"> 
-      <input type="email" class="form-control" id="pwd" placeholder="Enter password">
+      <input type="email" class="form-control" id="email" placeholder="Ingresa tu email">
     </div>
   </div>
   <div class="form-group d-flex">
-    <label class="control-label col-sm-3" for="pwd">Verificar email:*</label>
+    <label class="control-label col-sm-3 p-0" for="email2">Verificar email: *</label>
     <div class="col-sm-10"> 
-      <input type="email" class="form-control" id="pwd" placeholder="Enter password">
+      <input type="email" class="form-control" id="email2" placeholder="Ingresa el mismo email">
     </div>
   </div>
   <div class="form-group d-flex">
-    <label class="control-label col-sm-3" for="pwd">Contraseña:*</label>
+    <label class="control-label col-sm-3 p-0" for="pwd">Contraseña: *</label>
     <div class="col-sm-10"> 
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+      <input type="password" class="form-control" id="pwd" placeholder="Ingresa tu contraseña">
     </div>
   </div>
   <div class="form-group d-flex">
-    <label class="control-label col-sm-3" for="pwd">Verificar contraseña:*</label>
-    <div class="col-sm-8"> 
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    <label class="control-label col-sm-3 p-0" for="pwd2">Verificar contraseña: *</label>
+    <div class="col-sm-10"> 
+      <input type="password" class="form-control" id="pwd2" placeholder="Repite tu contraseña">
     </div>
   </div>
   <div class="form-group"> 
