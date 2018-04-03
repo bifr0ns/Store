@@ -24,15 +24,29 @@ collection.function = {
     },
     getProducts: function(subcategory){
         var ajax = collection.dao.getProducts(subcategory);
+        // NOTE: LO que quiero es que me imprima el nombre de la colección al picarle
+        $('#collection-title').append('<h3 class="text-primary font-weight-bold mb-0">'+subcategory+'</h3>');
         ajax.done(function (response) {
             console.log(response);
             collection.function.print_products(0,response.length,response);
         })
     },
     print_products: function (position,size,data) {
+      if (jQuery(window).width() < 768) {
+        $('.cards').css({
+          'width': '47%',
+          'max-width': '47%'
+        });
+      }
+      else {
+        $('.cards').css({
+          'width': '32%',
+          'max-width': '32%'
+        });
+      }
         if(position < size){
             $('#cards_container').append(
-                '<div class="mb-4 cards mr-auto">'+
+                '<div class="mb-4 mx-auto cards">'+
                     '<img class="card-img-top" src="./img/products/'+data[position].galery["0"].src+'" alt="Card image cap">'+
                     '<div class="card-body px-2 py-1">'+
                         '<p class="card-title text-center text-truncate">'+data[position].product_name+'</p>'+

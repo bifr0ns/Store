@@ -13,33 +13,12 @@ $(function($) {
 
   });
 
-
-
-
-
-
-
-
-
-
-  if (jQuery(window).width() < 768) {
-    $('.cards').css({
-      'width': '49%',
-      'max-width': '49%'
-    });
-  }
-  else {
-    $('.cards').css({
-      'width': '32%',
-      'max-width': '32%'
-    });
-  }
-
+// NOTE: Función para redimensionar las cards
   $(window).resize(function() {
     if (jQuery(window).width() < 768) {
       $('.cards').css({
-        'width': '49%',
-        'max-width': '49%'
+        'width': '47%',
+        'max-width': '47%'
       });
     }
     else {
@@ -76,8 +55,8 @@ $(function($) {
     }
     else {
       $('.cards').animate({
-        'width': '49%',
-        'max-width': '49%'
+        'width': '47%',
+        'max-width': '47%'
       },300);
     }
   });
