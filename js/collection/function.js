@@ -24,6 +24,7 @@ collection.function = {
     },
     getProducts: function(subcategory){
         var ajax = collection.dao.getProducts(subcategory);
+        // NOTE: LO que quiero es que me imprima el nombre de la colección al picarle
         $('#collection-title').append('<h3 class="text-primary font-weight-bold mb-0">'+subcategory+'</h3>');
         ajax.done(function (response) {
             console.log(response);
