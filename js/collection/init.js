@@ -20,7 +20,7 @@ $(function($) {
   $(document).on("click","#btn_resize_products", function(){
     console.log("dsdasdsad");
     $('.cards').animate({
-    width: "45%",
+      addClass('col-12');
   }, 5000);
   });
 
