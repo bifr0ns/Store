@@ -10,7 +10,7 @@
                 <h6 class="text-dark font-weight-bold">Acerca de</h6>
                 <ul class="list-unstyled">
                     <li>
-                        <a class="text-secondary" href="#!">Mayoral</a>
+                        <a class="text-secondary" href="/about.php">Mayoral</a>
                     </li>
                 </ul>
             </div>

@@ -153,21 +153,11 @@ $route_static = '';
                             </div>
                             <div class="col-md-6 col-12">
                                 <p class="h3 font-weight-bold" style="color:#0072CE">Registrarme</p>
-                                <form id="frm_register">
-                                    <div class="form-group">
-                                        <label for="r_nombre">Nombre</label>
-                                        <input class="form-control" id="r_nombre" name="r_nombre" type="text">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="r_email">Email</label>
-                                        <input type="email" class="form-control" id="r_email" name="r_email" aria-describedby="emailHelp" placeholder="micuenta@email.com">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="r_contraseña">Contraseña</label>
-                                        <input type="password" class="form-control" id="r_contraseña" name="r_contraseña" placeholder="*********">
-                                    </div>
-                                    <button type="submit" class="btn btn-primary btn_login">Iniciar sesión</button>
-                                </form>
+                                Regístrate y tendrás servicios personalizados, como por ejemplo:
+                                <ul><li>Podrás comprar sin tener que rellenar de nuevo los formularios</li>
+                                <li>Podrás crear tu wishlist o lista de deseos </li>
+                                <li>Te informaremos puntualmente sobre nuestras ofertas o promociones</li></ul>
+                                <button type="submit" class="btn btn-primary btn_go_registration" onClick="/registration.php">Registrarme</button>
                             </div>
                         </div>
                     </div>

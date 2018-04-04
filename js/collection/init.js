@@ -13,33 +13,12 @@ $(function($) {
 
   });
 
-
-
-
-
-
-
-
-
-
-  if (jQuery(window).width() < 768) {
-    $('.cards').css({
-      'width': '49%',
-      'max-width': '49%'
-    });
-  }
-  else {
-    $('.cards').css({
-      'width': '32%',
-      'max-width': '32%'
-    });
-  }
-
+// NOTE: Función para redimensionar las cards
   $(window).resize(function() {
     if (jQuery(window).width() < 768) {
       $('.cards').css({
-        'width': '49%',
-        'max-width': '49%'
+        'width': '47%',
+        'max-width': '47%'
       });
     }
     else {
@@ -57,13 +36,13 @@ $(function($) {
       $('.cards').animate({
         'width': '40%',
         'max-width': '40%'
-      },300);
+      },400);
     }
     else {
       $('.cards').animate({
         'width': '94%',
         'max-width': '94%'
-      },300);
+      },400);
     }
   });
 
@@ -72,13 +51,13 @@ $(function($) {
       $('.cards').animate({
         'width': '32%',
         'max-width': '32%'
-      },300);
+      },400);
     }
     else {
       $('.cards').animate({
-        'width': '49%',
-        'max-width': '49%'
-      },300);
+        'width': '47%',
+        'max-width': '47%'
+      },400);
     }
   });
 

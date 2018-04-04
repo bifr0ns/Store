@@ -24,15 +24,31 @@ collection.function = {
     },
     getProducts: function(subcategory){
         var ajax = collection.dao.getProducts(subcategory);
+
+        // NOTE: LO que quiero es que me imprima el nombre de la colección al picarle
+        $('#collection-title').append('<h3 class="text-primary font-weight-bold mb-0">'+($('#subcategory').val())+'</h3>');
+
         ajax.done(function (response) {
             console.log(response);
             collection.function.print_products(0,response.length,response);
         })
     },
     print_products: function (position,size,data) {
+      if (jQuery(window).width() < 768) {
+        $('.cards').css({
+          'width': '47%',
+          'max-width': '47%'
+        });
+      }
+      else {
+        $('.cards').css({
+          'width': '32%',
+          'max-width': '32%'
+        });
+      }
         if(position < size){
             $('#cards_container').append(
-                '<div class="mb-4 cards mr-auto">'+
+                '<div class="mb-4 mx-auto cards">'+
                     '<img class="card-img-top" src="./img/products/'+data[position].galery["0"].src+'" alt="Card image cap">'+
                     '<div class="card-body px-2 py-1">'+
                         '<p class="card-title text-center text-truncate">'+data[position].product_name+'</p>'+
@@ -41,7 +57,7 @@ collection.function = {
                         '<div class="w-100 d-inline-flex justify-content-center mb-3">'+
                             collection.function.print_colors(data[position].colors,data[position].colorData)+
                         '</div>'+
-                        '<p class="text-center mb-0"><a href="#" class="btn btn-secondary px-0 text-center w-100" style="font-size:0.8rem">AÑADIR A LA BOLSA</a></p>'+
+                        '<p class="text-center mb-0"><a href="#" class="btn btn-secondary px-0 text-center w-100" style="font-size:0.8rem" data-toggle="modal" data-target="#product-viewModal">AÑADIR A LA BOLSA</a></p>'+
                     '</div>'+
                 '</div>');
             setTimeout( function timer(){
