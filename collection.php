@@ -37,17 +37,17 @@ include_once('lib/header.php');
 
     <div class="row mx-0">
       <?php // NOTE: Botones para cambiar el tamaño de las col ?>
-      <span class="my-auto text-right text-muted w-100 pr-3" style="font-size: 38px;"><span class="pr-2"><a class="fa fa-th-large border-dark border-right" id="btn_2col"></a></span><span class="pl-2" style="border-left: 1px solid"><a class="fa fa-th" id="btn_3col"></a></span></span>
+      <span id="btn_resize_products" class="my-auto text-right text-muted w-100 pr-3" style="font-size: 38px;"><span class="pr-2"><a class="fa fa-th-large border-dark border-right" id="btn_2col"></a></span><span class="pl-2" style="border-left: 1px solid"><a class="fa fa-th" id="btn_3col"></a></span></span>
     </div>
 
     <?php // NOTE: Cards of products ?>
-    <div id='cards_container' class="row mx-0 w-100">
+    <div id='cards_container' class="row mx-0">
     </div>
   </div>
 </div>
 
 <?php // NOTE: Aquí empieza la vista previa del artículo ?>
-<div class="modal fade pr-0" id="product-viewModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade pr-0" id="modal-product" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">

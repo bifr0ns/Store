@@ -29,40 +29,27 @@ collection.function = {
         $('#collection-title').append('<h3 class="text-primary font-weight-bold mb-0">'+($('#subcategory').val())+'</h3>');
 
         ajax.done(function (response) {
-            console.log(response);
             collection.function.print_products(0,response.length,response);
         })
     },
     print_products: function (position,size,data) {
-      if (jQuery(window).width() < 768) {
-        $('.cards').css({
-          'width': '47%',
-          'max-width': '47%'
-        });
-      }
-      else {
-        $('.cards').css({
-          'width': '32%',
-          'max-width': '32%'
-        });
-      }
         if(position < size){
             $('#cards_container').append(
-                '<div class="mb-4 mx-auto cards">'+
+                '<div class="mb-4 cards col-12 col-sm-6 col-md-4">'+
                     '<img class="card-img-top" src="./img/products/'+data[position].galery["0"].src+'" alt="Card image cap">'+
                     '<div class="card-body px-2 py-1">'+
                         '<p class="card-title text-center text-truncate">'+data[position].product_name+'</p>'+
                         '<p class="card-text text-center mb-2" style="font-weight: 400;">'+data[position].price+'</p>'+
                         '<p class="card-text text-center mb-0"><strong>Más colores</strong></p>'+
-                        '<div class="w-100 d-inline-flex justify-content-center mb-3">'+
+                        '<div class="w-100 d-flex justify-content-center mb-3">'+
                             collection.function.print_colors(data[position].colors,data[position].colorData)+
                         '</div>'+
-                        '<p class="text-center mb-0"><a href="#" class="btn btn-secondary px-0 text-center w-100" style="font-size:0.8rem" data-toggle="modal" data-target="#product-viewModal">AÑADIR A LA BOLSA</a></p>'+
+                        '<p class="text-center mb-0"><button class="btn btn-secondary px-0 text-center w-100 btn_modal_product" style="font-size:0.8rem">AÑADIR A LA BOLSA</button></p>'+
                     '</div>'+
                 '</div>');
             setTimeout( function timer(){
                 collection.function.print_products(position+1,size,data);
-            }, 100 );
+            }, 500 );
         }
         else{}
     },

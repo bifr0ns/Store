@@ -13,8 +13,19 @@ $(function($) {
 
   });
 
+  $(document).on("click",".btn_modal_product", function(){
+    $('#modal-product').modal('show');
+  });
+
+  $(document).on("click","#btn_resize_products", function(){
+    console.log("dsdasdsad");
+    $('.cards').animate({
+    width: "45%",
+  }, 5000);
+  });
+
 // NOTE: Función para redimensionar las cards
-  $(window).resize(function() {
+  /*$(window).resize(function() {
     if (jQuery(window).width() < 768) {
       $('.cards').css({
         'width': '47%',
@@ -59,7 +70,7 @@ $(function($) {
         'max-width': '47%'
       },400);
     }
-  });
+  });*/
 
     function redirectPost(url, data) {
         var form = document.createElement('form');
