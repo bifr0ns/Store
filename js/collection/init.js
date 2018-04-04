@@ -36,13 +36,13 @@ $(function($) {
       $('.cards').animate({
         'width': '40%',
         'max-width': '40%'
-      },300);
+      },400);
     }
     else {
       $('.cards').animate({
         'width': '94%',
         'max-width': '94%'
-      },300);
+      },400);
     }
   });
 
@@ -51,13 +51,13 @@ $(function($) {
       $('.cards').animate({
         'width': '32%',
         'max-width': '32%'
-      },300);
+      },400);
     }
     else {
       $('.cards').animate({
         'width': '47%',
         'max-width': '47%'
-      },300);
+      },400);
     }
   });
 
