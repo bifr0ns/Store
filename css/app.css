@@ -74,5 +74,5 @@
     height: 1.2rem;
 }
 .s_color:hover {
-    border-style: 1px solid;
+    border-style: solid;
 }

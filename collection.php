@@ -4,8 +4,8 @@ include_once('lib/header.php');
 <br><br><br><br><br>
 <div class="row mx-0">
   <div class="col-lg-3 d-none d-lg-block">
-      <input type="hidden" class="form-control" id="category" name="category" value="<?php echo $_POST['category']?>">
-      <input type="hidden" class="form-control" id="subcategory" name="subcategory" value="<?php echo $_POST['subcategory']?>">
+      <input type="text" class="form-control" id="category" name="category" value="<?php echo $_POST['category']?>">
+      <input type="text" class="form-control" id="subcategory" name="subcategory" value="<?php echo $_POST['subcategory']?>">
 
       <?php // NOTE: Colecciónes ?>
       <strong class="ml-3" style="font-size: 17px; margin-left: -9px;">COLECCIÓN</strong>
@@ -29,7 +29,7 @@ include_once('lib/header.php');
   <div class="col-lg-9">
 
     <?php // NOTE: Banner, sólo se debe mostrar en Novedades ?>
-    <img src="./img/banner/banner1.jpg" class="w-100 mb-4">
+    <img src="./img/banner/banner<?php echo $_POST['category']?>.jpg" class="w-100 mb-4">
 
     <?php // NOTE: Título de la Colección ?>
     <div id="collection-title" class="row mx-0">
@@ -46,7 +46,10 @@ include_once('lib/header.php');
   </div>
 </div>
 
-<?php // NOTE: Aquí empieza la vista previa del artículo ?>
+
+
+
+<?php // NOTE: Aquí empieza el MODAL de la vista previa del artículo ?>
 <div class="modal fade pr-0" id="modal-product" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
@@ -64,30 +67,23 @@ include_once('lib/header.php');
       <?php // NOTE: Imagenes, precio y descripción del art. ?>
       <div class="row mx-0 mt-3 justify-content-center">
         <div class="col-12 col-lg-2 text-center">
-          <img class="col-10 col-lg-12 px-0 pb-2" src="./img/products/1.jpg" alt="">
-          <img class="col-5 col-lg-12 px-0 pb-2" src="./img/products/2.jpg" alt="">
-          <img class="col-5 col-lg-12 px-0 pb-2" src="./img/products/3.jpg" alt="">
+          <img id="modal_img_1" class="col-10 col-lg-12 px-0 pb-2" src="" alt="">
+          <img id="modal_img_2" class="col-5 col-lg-12 px-0 pb-2" src="" alt="">
+          <img id="modal_img_3" class="col-5 col-lg-12 px-0 pb-2" src="" alt="">
         </div>
         <div class="d-none d-lg-block col-lg-5 px-0">
-          <img class="w-100" src="./img/products/1.jpg" alt="">
+          <img id="modal_img_prin" class="w-100" src="" alt="">
         </div>
         <div class="col-12 col-lg-5 pl-4">
           <div class="w-100">
             <br>
-            <span>Art . 28-01008-069</span>
-            <b class="float-right" style="font-size: 22px;">$ 319.00</b>
+            <span id="modal_art_color"></span>
+            <b id="modal_price" class="float-right" style="font-size: 22px;"></b>
           </div>
           <div class="w-100 mb-3">
-            <b>Color: Limonada</b>
+            <b id="modal_b_color"></b>
           </div>
-          <div class="w-100 d-inline-flex">
-
-            <?php // NOTE: Aquí van los colores de cada articulo ?>
-            <span class="mr-1 rounded-circle" style="background-color: rgb(229, 222, 90); width: 1.2rem; height: 1.2rem;" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-            <span class="mr-1 rounded-circle" style="background-color: rgb(91, 117, 230); width: 1.2rem; height: 1.2rem;" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-            <span class="mr-1 rounded-circle" style="background-color: rgb(91, 205, 230); width: 1.2rem; height: 1.2rem;" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-            <span class="mr-1 rounded-circle" style="background-color: rgb(224, 66, 66); width: 1.2rem; height: 1.2rem;" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
-            <span class="mr-1 rounded-circle" style="background-color: rgb(230, 91, 199); width: 1.2rem; height: 1.2rem;" data-toggle="tooltip" data-placement="bottom" title="Limonada"></span>
+          <div id="modal_colors" class="w-100 d-inline-flex">
 
           </div>
           <br>

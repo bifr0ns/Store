@@ -9,6 +9,9 @@ switch ($_POST['funcion']){
     case 'getProducts':
         getProducts();
         break;
+    case 'getDetails':
+        getDetails();
+        break;
 
 }
 
@@ -26,6 +29,37 @@ function getCollections(){
             'category' => $row['id_category']
         );
     }
+
+    echo json_encode($data);
+}
+
+function getDetails(){
+    $id = $_POST['id_product'];
+
+    $data = array();
+
+    $sql = "SELECT p.id_product, p.art, p.name AS product_name, p.price, p.description, p.composition, p.id_category, p.id_subcategory, p.id_color, c.* 
+                FROM product p 
+                    LEFT JOIN colors AS c ON p.id_color = c.id_color
+                      WHERE p.id_color = c.id_color AND p.id_product = $id";
+
+    $result = dbo_conn::getConn()->query($sql);
+    $row = $result->fetch_assoc();
+
+    $data = array(
+        'id_product' => $row['id_product'],
+        'article' => $row['art'],
+        'product_name' => utf8_encode($row['product_name']),
+        'price' => '$'.$row['price'],
+        'description' => utf8_encode($row['description']),
+        'composition' => utf8_encode($row['composition']),
+        'id_category' => $row['id_category'],
+        'id_subcategory' => $row['id_subcategory'],
+        'colorData' => getColorData($row['id_color']),
+        'colors' => getColors($row['art']),
+        'galery' => get_galery_by_color($row['id_product'],$row['id_color'])
+
+    );
 
     echo json_encode($data);
 }
